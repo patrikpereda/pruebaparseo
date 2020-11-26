@@ -82,9 +82,7 @@
                 if(in_array(strtolower($courses[$i]->getTitle()), $equalsTitles)) {
                     $courses[$i]->setId($resultIds[$introduceId]);
                     $introduceId++;
-                    echo "in";
                 }
-                echo "out";
             }
   
             /************ Exercise 4 ************/
